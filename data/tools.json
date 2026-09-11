@@ -1,0 +1,249 @@
+{
+  "keyword": "node based ai image generator",
+  "title": "Best Node Based AI Image Generators (2026)",
+  "lastChecked": "2026-09-11",
+  "capabilityChecks": [
+    {
+      "key": "hosted",
+      "label": "Hosted"
+    },
+    {
+      "key": "nodeGraph",
+      "label": "Node graph"
+    },
+    {
+      "key": "publicApi",
+      "label": "Public API"
+    },
+    {
+      "key": "costVisibility",
+      "label": "Cost visibility"
+    },
+    {
+      "key": "batchSupport",
+      "label": "Batch support"
+    }
+  ],
+  "tools": [
+    {
+      "n": 1,
+      "name": "Wireflow",
+      "tagline": "Best Overall",
+      "homepage": "https://www.wireflow.ai",
+      "docs": "https://www.wireflow.ai/docs/mcp",
+      "pricing": "https://www.wireflow.ai/pricing",
+      "claudeConnection": "First-party hosted MCP (Streamable HTTP, OAuth)",
+      "restApi": true,
+      "modelSupport": "Multi-model catalog across image, video and audio nodes",
+      "freeTier": "yes",
+      "repo": null,
+      "note": null,
+      "quickstart": [
+        {
+          "label": "Add the hosted MCP server to Claude Code, then approve the OAuth consent screen:",
+          "lang": "bash",
+          "code": "claude mcp add --transport http wireflow https://www.wireflow.ai/api/mcp"
+        },
+        {
+          "label": "In Claude Desktop or claude.ai, add the same URL as a custom connector. Read-only tools (`list_workflows`, `list_models`, `get_execution`) cost nothing; `run_workflow` is the only one that spends credits.",
+          "lang": "text",
+          "code": "https://www.wireflow.ai/api/mcp"
+        }
+      ],
+      "capabilities": {
+        "hosted": true,
+        "nodeGraph": true,
+        "publicApi": true,
+        "costVisibility": true,
+        "batchSupport": true
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 2,
+      "name": "ComfyUI",
+      "tagline": "· open-source node graph you run on your own GPU",
+      "homepage": "https://www.comfy.org",
+      "docs": "https://docs.comfy.org",
+      "pricing": null,
+      "claudeConnection": "No first-party MCP server — community servers wrap a local instance",
+      "restApi": true,
+      "modelSupport": "Any checkpoint, LoRA or custom node you install locally",
+      "freeTier": "yes",
+      "repo": "Comfy-Org/ComfyUI",
+      "note": "Open source and self-hosted, so the software is free and you supply the GPU. The repo moved from comfyanonymous/ComfyUI to Comfy-Org/ComfyUI; the old path still redirects.",
+      "quickstart": [
+        {
+          "label": "Install via the project's own CLI, exactly as the ComfyUI README shows:",
+          "lang": "bash",
+          "code": "pip install comfy-cli\ncomfy install"
+        }
+      ],
+      "capabilities": {
+        "hosted": false,
+        "nodeGraph": true,
+        "publicApi": true,
+        "costVisibility": false,
+        "batchSupport": false
+      },
+      "live": {
+        "stars": 132433,
+        "lastPush": "2026-09-11T01:52:56Z",
+        "latestRelease": "v0.35.0",
+        "latestReleaseDate": "2026-09-09",
+        "checkedAt": "2026-09-11"
+      }
+    },
+    {
+      "n": 3,
+      "name": "Krea",
+      "tagline": "· hosted generation platform with node apps and a documented REST API",
+      "homepage": "https://www.krea.ai",
+      "docs": "https://www.krea.ai/docs/",
+      "pricing": "https://www.krea.ai/pricing",
+      "claudeConnection": "No first-party MCP server documented",
+      "restApi": true,
+      "modelSupport": "Krea’s hosted image and video models",
+      "freeTier": "unverified",
+      "repo": null,
+      "note": null,
+      "quickstart": null,
+      "capabilities": {
+        "hosted": true,
+        "nodeGraph": true,
+        "publicApi": true,
+        "costVisibility": false,
+        "batchSupport": false
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 4,
+      "name": "Flora AI",
+      "tagline": "· design-oriented canvas with a public technique-execution API",
+      "homepage": "https://flora.ai",
+      "docs": "https://docs.flora.ai",
+      "pricing": "https://flora.ai/pricing",
+      "claudeConnection": "MCP and API documented by Flora at flora.ai/mcp",
+      "restApi": true,
+      "modelSupport": "Third-party image, video and text models on one canvas",
+      "freeTier": "yes",
+      "repo": null,
+      "note": "Checked 2026-09-01: florafauna.ai now redirects to flora.ai. Flora’s own homepage CTA is \"Get started for free\".",
+      "quickstart": null,
+      "capabilities": {
+        "hosted": true,
+        "nodeGraph": true,
+        "publicApi": true,
+        "costVisibility": false,
+        "batchSupport": false
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 5,
+      "name": "Figma Weave",
+      "tagline": "· AI canvas now sold inside the Figma design suite",
+      "homepage": "https://weave.figma.com",
+      "docs": "https://help.figma.com",
+      "pricing": "https://weave.figma.com/pricing",
+      "claudeConnection": "No first-party MCP server documented for Weave",
+      "restApi": false,
+      "modelSupport": "Third-party models inside the Weave canvas",
+      "freeTier": "unverified",
+      "repo": null,
+      "note": "Checked 2026-09-01: weavy.ai redirects to weave.figma.com and the site states \"Weavy is now Figma Weave.\" No public Weave API or developer docs are published; the trial is marked \"eligible plans only\".",
+      "quickstart": null,
+      "capabilities": {
+        "hosted": true,
+        "nodeGraph": true,
+        "publicApi": false,
+        "costVisibility": false,
+        "batchSupport": false
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 6,
+      "name": "Freepik Spaces",
+      "tagline": "· browser canvas layered on a large licensed stock library",
+      "homepage": "https://www.freepik.com/spaces",
+      "docs": "https://www.freepik.com/ai/docs",
+      "pricing": "https://www.freepik.com/pricing",
+      "claudeConnection": "No first-party MCP server documented for Spaces",
+      "restApi": true,
+      "modelSupport": "Freepik’s hosted image, video and audio models",
+      "freeTier": "yes",
+      "repo": null,
+      "note": "Freepik’s own Spaces docs state a free user can create up to 3 Spaces. Checked 2026-09-01: the developer API docs at docs.freepik.com now redirect to docs.magnific.com, Freepik’s API brand.",
+      "quickstart": null,
+      "capabilities": {
+        "hosted": true,
+        "nodeGraph": true,
+        "publicApi": false,
+        "costVisibility": false,
+        "batchSupport": false
+      },
+      "live": {
+        "stars": null,
+        "lastPush": null,
+        "latestRelease": null,
+        "latestReleaseDate": null,
+        "checkedAt": null
+      }
+    },
+    {
+      "n": 7,
+      "name": "InvokeAI",
+      "tagline": "· open-source workflow editor with a strong inpainting canvas",
+      "homepage": "https://www.invoke.com",
+      "docs": "https://invoke-ai.github.io/InvokeAI/",
+      "pricing": null,
+      "claudeConnection": "No first-party MCP server documented",
+      "restApi": true,
+      "modelSupport": "Any local checkpoint or LoRA you install",
+      "freeTier": "yes",
+      "repo": "invoke-ai/InvokeAI",
+      "note": "Open source and self-hosted. The README installs via a downloadable launcher rather than a package-manager one-liner, so no install command is reproduced here.",
+      "quickstart": null,
+      "capabilities": {
+        "hosted": false,
+        "nodeGraph": true,
+        "publicApi": false,
+        "costVisibility": false,
+        "batchSupport": false
+      },
+      "live": {
+        "stars": 28185,
+        "lastPush": "2026-09-06T18:55:55Z",
+        "latestRelease": "v6.14.1",
+        "latestReleaseDate": "2026-09-06",
+        "checkedAt": "2026-09-11"
+      }
+    }
+  ]
+}
