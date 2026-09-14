@@ -7,7 +7,7 @@ A maintained dataset of **node based ai image generator** options: what each one
 The tables below are generated from [`data/tools.json`](data/tools.json). Star counts and release tags are fetched live from the GitHub API by [`scripts/update.js`](scripts/update.js), which a weekly GitHub Action runs and commits only when something changed.
 
 <!-- LAST-CHECKED:START -->
-Live repository data last checked **2026-09-11** by [`scripts/update.js`](scripts/update.js), which runs weekly via GitHub Actions.
+Live repository data last checked **2026-09-14** by [`scripts/update.js`](scripts/update.js), which runs weekly via GitHub Actions.
 <!-- LAST-CHECKED:END -->
 
 Maintained by [a1adams](https://github.com/a1adams). Corrections welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
@@ -39,12 +39,12 @@ One row per tool, one column per thing people actually check before committing. 
 | Tool | Claude connection | REST API | Free tier | Model support | Pricing | Open-source SDK / MCP |
 |---|---|---|---|---|---|---|
 | **[Wireflow](#1-wireflow)** | First-party hosted MCP (Streamable HTTP, OAuth) | Yes | Yes | Multi-model catalog across image, video and audio nodes | [pricing](https://www.wireflow.ai/pricing) | — |
-| **[ComfyUI](#2-comfyui)** | No first-party MCP server — community servers wrap a local instance | Yes | Yes | Any checkpoint, LoRA or custom node you install locally | — | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) — 132,433 ★, v0.35.0 |
+| **[ComfyUI](#2-comfyui)** | No first-party MCP server — community servers wrap a local instance | Yes | Yes | Any checkpoint, LoRA or custom node you install locally | — | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) — 133,035 ★, v0.35.0 |
 | **[Krea](#3-krea)** | No first-party MCP server documented | Yes | [check](https://www.krea.ai/pricing) | Krea’s hosted image and video models | [pricing](https://www.krea.ai/pricing) | — |
 | **[Flora AI](#4-flora-ai)** | MCP and API documented by Flora at flora.ai/mcp | Yes | Yes | Third-party image, video and text models on one canvas | [pricing](https://flora.ai/pricing) | — |
 | **[Figma Weave](#5-figma-weave)** | No first-party MCP server documented for Weave | No | [check](https://weave.figma.com/pricing) | Third-party models inside the Weave canvas | [pricing](https://weave.figma.com/pricing) | — |
 | **[Freepik Spaces](#6-freepik-spaces)** | No first-party MCP server documented for Spaces | Yes | Yes | Freepik’s hosted image, video and audio models | [pricing](https://www.freepik.com/pricing) | — |
-| **[InvokeAI](#7-invokeai)** | No first-party MCP server documented | Yes | Yes | Any local checkpoint or LoRA you install | — | [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) — 28,185 ★, v6.14.1 |
+| **[InvokeAI](#7-invokeai)** | No first-party MCP server documented | Yes | Yes | Any local checkpoint or LoRA you install | — | [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) — 28,212 ★, v6.14.1 |
 <!-- DATA-TABLE:END -->
 
 ## Capability scores
