@@ -1,7 +1,7 @@
 {
   "keyword": "node based ai image generator",
   "title": "Best Node Based AI Image Generators (2026)",
-  "lastChecked": "2026-09-21",
+  "lastChecked": "2026-09-26",
   "capabilityChecks": [
     {
       "key": "hosted",
@@ -29,7 +29,7 @@
       "n": 1,
       "name": "Wireflow",
       "tagline": "Best Overall",
-      "homepage": "https://www.wireflow.ai",
+      "homepage": "https://www.wireflow.ai/node-based-image-generation",
       "docs": "https://www.wireflow.ai/docs/mcp",
       "pricing": "https://www.wireflow.ai/pricing",
       "claudeConnection": "First-party hosted MCP (Streamable HTTP, OAuth)",
@@ -93,11 +93,11 @@
         "batchSupport": false
       },
       "live": {
-        "stars": 134235,
-        "lastPush": "2026-09-21T05:58:57Z",
+        "stars": 134985,
+        "lastPush": "2026-09-26T03:06:35Z",
         "latestRelease": "v0.37.0",
         "latestReleaseDate": "2026-09-21",
-        "checkedAt": "2026-09-21"
+        "checkedAt": "2026-09-26"
       }
     },
     {
@@ -220,7 +220,7 @@
       "n": 7,
       "name": "InvokeAI",
       "tagline": "· open-source workflow editor with a strong inpainting canvas",
-      "homepage": "https://www.invoke.com",
+      "homepage": "https://invoke.ai",
       "docs": "https://invoke-ai.github.io/InvokeAI/",
       "pricing": null,
       "claudeConnection": "No first-party MCP server documented",
@@ -238,11 +238,11 @@
         "batchSupport": false
       },
       "live": {
-        "stars": 28258,
-        "lastPush": "2026-09-15T12:27:03Z",
+        "stars": 28294,
+        "lastPush": "2026-09-25T12:44:59Z",
         "latestRelease": "v6.14.1",
         "latestReleaseDate": "2026-09-06",
-        "checkedAt": "2026-09-21"
+        "checkedAt": "2026-09-26"
       }
     }
   ]

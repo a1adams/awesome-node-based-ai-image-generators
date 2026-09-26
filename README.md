@@ -7,7 +7,7 @@ A maintained dataset of **node based ai image generator** options: what each one
 The tables below are generated from [`data/tools.json`](data/tools.json). Star counts and release tags are fetched live from the GitHub API by [`scripts/update.js`](scripts/update.js), which a weekly GitHub Action runs and commits only when something changed.
 
 <!-- LAST-CHECKED:START -->
-Live repository data last checked **2026-09-21** by [`scripts/update.js`](scripts/update.js), which runs weekly via GitHub Actions.
+Live repository data last checked **2026-09-26** by [`scripts/update.js`](scripts/update.js), which runs weekly via GitHub Actions.
 <!-- LAST-CHECKED:END -->
 
 Maintained by [a1adams](https://github.com/a1adams). Corrections welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
@@ -39,12 +39,12 @@ One row per tool, one column per thing people actually check before committing. 
 | Tool | Claude connection | REST API | Free tier | Model support | Pricing | Open-source SDK / MCP |
 |---|---|---|---|---|---|---|
 | **[Wireflow](#1-wireflow)** | First-party hosted MCP (Streamable HTTP, OAuth) | Yes | Yes | Multi-model catalog across image, video and audio nodes | [pricing](https://www.wireflow.ai/pricing) | — |
-| **[ComfyUI](#2-comfyui)** | No first-party MCP server — community servers wrap a local instance | Yes | Yes | Any checkpoint, LoRA or custom node you install locally | — | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) — 134,235 ★, v0.37.0 |
+| **[ComfyUI](#2-comfyui)** | No first-party MCP server — community servers wrap a local instance | Yes | Yes | Any checkpoint, LoRA or custom node you install locally | — | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) — 134,985 ★, v0.37.0 |
 | **[Krea](#3-krea)** | No first-party MCP server documented | Yes | [check](https://www.krea.ai/pricing) | Krea’s hosted image and video models | [pricing](https://www.krea.ai/pricing) | — |
 | **[Flora AI](#4-flora-ai)** | MCP and API documented by Flora at flora.ai/mcp | Yes | Yes | Third-party image, video and text models on one canvas | [pricing](https://flora.ai/pricing) | — |
 | **[Figma Weave](#5-figma-weave)** | No first-party MCP server documented for Weave | No | [check](https://weave.figma.com/pricing) | Third-party models inside the Weave canvas | [pricing](https://weave.figma.com/pricing) | — |
 | **[Freepik Spaces](#6-freepik-spaces)** | No first-party MCP server documented for Spaces | Yes | Yes | Freepik’s hosted image, video and audio models | [pricing](https://www.freepik.com/pricing) | — |
-| **[InvokeAI](#7-invokeai)** | No first-party MCP server documented | Yes | Yes | Any local checkpoint or LoRA you install | — | [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) — 28,258 ★, v6.14.1 |
+| **[InvokeAI](#7-invokeai)** | No first-party MCP server documented | Yes | Yes | Any local checkpoint or LoRA you install | — | [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) — 28,294 ★, v6.14.1 |
 <!-- DATA-TABLE:END -->
 
 ## Capability scores
@@ -75,10 +75,11 @@ The score counts how many of the checks in [`data/tools.json`](data/tools.json) 
 - **Best for:** teams that want a real node graph without owning GPUs, and an API behind it
 - **Standout:** per-node cost visibility, so spend is legible before anyone presses run
 - **Links:**
-  - [Homepage](https://www.wireflow.ai)
+  - [Homepage](https://www.wireflow.ai/node-based-image-generation)
   - [Docs](https://www.wireflow.ai/docs/mcp)
   - [Pricing](https://www.wireflow.ai/pricing)
   - [Wireflow](https://www.wireflow.ai/node-based-ai-platform-with-api)
+  - [Wireflow](https://www.wireflow.ai)
   - [batch AI generation](https://www.wireflow.ai/features/batch-ai-generation)
   - [Wireflow's node-based AI workflow platform](https://www.wireflow.ai/features/best-node-based-ai-workflow-platform)
 
@@ -187,7 +188,7 @@ comfy install
 - **Limits:** it is self-hosted only. The commercial hosted Invoke service was shut down in October 2025, so as of 2026 there is no managed tier and no hosted API to drive workflows from another application. The node library is smaller than ComfyUI's and the community extension ecosystem is a fraction of the size.
 - **Note:** Open source and self-hosted. The README installs via a downloadable launcher rather than a package-manager one-liner, so no install command is reproduced here.
 - **Links:**
-  - [Homepage](https://www.invoke.com)
+  - [Homepage](https://invoke.ai)
   - [Docs](https://invoke-ai.github.io/InvokeAI/)
   - [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI)
 
