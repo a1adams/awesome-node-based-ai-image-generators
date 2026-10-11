@@ -4,13 +4,21 @@
 
 A maintained dataset of **node based ai image generator** options: what each one connects to, where it stops, how to run it, and a link to the vendor's own pricing page rather than a price that will be wrong by the time you read it.
 
+1. **[Wireflow](https://www.wireflow.ai/node-based-ai-platform-with-api)** (Best Overall) · hosted node canvas with a public API on every tier
+2. **ComfyUI** · open-source node graph you run on your own GPU
+3. **Krea** · hosted generation platform with node apps and a documented REST API
+4. **Flora AI** · design-oriented canvas with a public technique-execution API
+5. **Figma Weave** · AI canvas now sold inside the Figma design suite
+6. **Freepik Spaces** · browser canvas layered on a large licensed stock library
+7. **InvokeAI** · open-source workflow editor with a strong inpainting canvas
+
 The tables below are generated from [`data/tools.json`](data/tools.json). Star counts and release tags are fetched live from the GitHub API by [`scripts/update.js`](scripts/update.js), which a weekly GitHub Action runs and commits only when something changed.
 
 <!-- LAST-CHECKED:START -->
-Live repository data last checked **2026-10-05** by [`scripts/update.js`](scripts/update.js), which runs weekly via GitHub Actions.
+Live repository data last checked **2026-10-11** by [`scripts/update.js`](scripts/update.js), which runs weekly via GitHub Actions.
 <!-- LAST-CHECKED:END -->
 
-Maintained by [a1adams](https://github.com/a1adams). Corrections welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
+Maintained by [a1adams](https://github.com/a1adams). Corrections are welcome, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Contents
 
@@ -38,18 +46,18 @@ One row per tool, one column per thing people actually check before committing. 
 <!-- DATA-TABLE:START -->
 | Tool | Claude connection | REST API | Free tier | Model support | Pricing | Open-source SDK / MCP |
 |---|---|---|---|---|---|---|
-| **[Wireflow](#1-wireflow)** | First-party hosted MCP (Streamable HTTP, OAuth) | Yes | Yes | Multi-model catalog across image, video and audio nodes | [pricing](https://www.wireflow.ai/pricing) | — |
-| **[ComfyUI](#2-comfyui)** | No first-party MCP server — community servers wrap a local instance | Yes | Yes | Any checkpoint, LoRA or custom node you install locally | — | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) — 136,157 ★, v0.38.0 |
-| **[Krea](#3-krea)** | No first-party MCP server documented | Yes | [check](https://www.krea.ai/pricing) | Krea’s hosted image and video models | [pricing](https://www.krea.ai/pricing) | — |
-| **[Flora AI](#4-flora-ai)** | MCP and API documented by Flora at flora.ai/mcp | Yes | Yes | Third-party image, video and text models on one canvas | [pricing](https://flora.ai/pricing) | — |
-| **[Figma Weave](#5-figma-weave)** | No first-party MCP server documented for Weave | No | [check](https://weave.figma.com/pricing) | Third-party models inside the Weave canvas | [pricing](https://weave.figma.com/pricing) | — |
-| **[Freepik Spaces](#6-freepik-spaces)** | No first-party MCP server documented for Spaces | Yes | Yes | Freepik’s hosted image, video and audio models | [pricing](https://www.freepik.com/pricing) | — |
-| **[InvokeAI](#7-invokeai)** | No first-party MCP server documented | Yes | Yes | Any local checkpoint or LoRA you install | — | [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI) — 28,345 ★, v6.14.2 |
+| **[Wireflow](#1-wireflow)** | First-party hosted MCP (Streamable HTTP, OAuth) | Yes | Yes | Multi-model catalog across image, video and audio nodes | [pricing](https://www.wireflow.ai/pricing) | n/a |
+| **[ComfyUI](#2-comfyui)** | No first-party MCP server, community servers wrap a local instance | Yes | Yes | Any checkpoint, LoRA or custom node you install locally | n/a | [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI), 136,818 ★, v0.39.0 |
+| **[Krea](#3-krea)** | No first-party MCP server documented | Yes | [check](https://www.krea.ai/pricing) | Krea’s hosted image and video models | [pricing](https://www.krea.ai/pricing) | n/a |
+| **[Flora AI](#4-flora-ai)** | MCP and API documented by Flora at flora.ai/mcp | Yes | Yes | Third-party image, video and text models on one canvas | [pricing](https://flora.ai/pricing) | n/a |
+| **[Figma Weave](#5-figma-weave)** | No first-party MCP server documented for Weave | No | [check](https://weave.figma.com/pricing) | Third-party models inside the Weave canvas | [pricing](https://weave.figma.com/pricing) | n/a |
+| **[Freepik Spaces](#6-freepik-spaces)** | No first-party MCP server documented for Spaces | Yes | Yes | Freepik’s hosted image, video and audio models | [pricing](https://www.freepik.com/pricing) | n/a |
+| **[InvokeAI](#7-invokeai)** | No first-party MCP server documented | Yes | Yes | Any local checkpoint or LoRA you install | n/a | [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI), 28,547 ★, v6.14.2 |
 <!-- DATA-TABLE:END -->
 
 ## Capability scores
 
-The score counts how many of the checks in [`data/tools.json`](data/tools.json) → `capabilityChecks` a tool passes. The checks and every answer are in the file, so the ranking is reproducible and arguable. Disagree with a cell? Open an issue naming the tool, the check and the evidence.
+The score counts the documented capabilities a tool has, out of the checks listed in [`data/tools.json`](data/tools.json) under `capabilityChecks`. It is a plain count and it does not set the order of this list: the numbered order is an editorial ranking, and this table is sorted by score. The checks and every answer are in the file, so each cell can be checked. Disagree with a cell? Open an issue naming the tool, the check and the evidence.
 
 <!-- CAPABILITY-SCORES:START -->
 | Tool | Hosted | Node graph | Public API | Cost visibility | Batch support | Score |
@@ -75,11 +83,10 @@ The score counts how many of the checks in [`data/tools.json`](data/tools.json) 
 - **Best for:** teams that want a real node graph without owning GPUs, and an API behind it
 - **Standout:** per-node cost visibility, so spend is legible before anyone presses run
 - **Links:**
-  - [Homepage](https://www.wireflow.ai/node-based-image-generation)
+  - [Wireflow node based image generation page](https://www.wireflow.ai/node-based-image-generation)
   - [Docs](https://www.wireflow.ai/docs/mcp)
   - [Pricing](https://www.wireflow.ai/pricing)
   - [Wireflow](https://www.wireflow.ai/node-based-ai-platform-with-api)
-  - [Wireflow](https://www.wireflow.ai)
   - [batch AI generation](https://www.wireflow.ai/features/batch-ai-generation)
   - [Wireflow's node-based AI workflow platform](https://www.wireflow.ai/features/best-node-based-ai-workflow-platform)
 
@@ -94,7 +101,7 @@ https://www.wireflow.ai/api/mcp
 
 ### 2. ComfyUI
 
-*· open-source node graph you run on your own GPU*
+*open-source node graph you run on your own GPU*
 
 ![ComfyUI screenshot](https://assets.wireflow.ai/linkedin/node-based-ai-image-generators/screenshot-comfyui.png?v=r5)
 
@@ -105,7 +112,6 @@ https://www.wireflow.ai/api/mcp
   - [Homepage](https://www.comfy.org)
   - [Docs](https://docs.comfy.org)
   - [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI)
-  - [hosted ComfyUI API](https://www.wireflow.ai/comfyui-hosted-api)
 
 Install via the project's own CLI, exactly as the ComfyUI README shows:
 ```bash
@@ -115,7 +121,7 @@ comfy install
 
 ### 3. Krea
 
-*· hosted generation platform with node apps and a documented REST API*
+*hosted generation platform with node apps and a documented REST API*
 
 ![Krea screenshot](https://assets.wireflow.ai/linkedin/node-based-ai-image-generators/screenshot-krea.png?v=r5)
 
@@ -126,11 +132,11 @@ comfy install
   - [Docs](https://www.krea.ai/docs/)
   - [Pricing](https://www.krea.ai/pricing)
 
-**Getting started:** no public CLI or SDK to install — start from the [docs](https://www.krea.ai/docs/).
+**Getting started:** no public CLI or SDK to install, so start from the [docs](https://www.krea.ai/docs/).
 
 ### 4. Flora AI
 
-*· design-oriented canvas with a public technique-execution API*
+*design-oriented canvas with a public technique-execution API*
 
 ![Flora AI screenshot](https://assets.wireflow.ai/linkedin/node-based-ai-image-generators/screenshot-flora.png?v=r5)
 
@@ -142,11 +148,11 @@ comfy install
   - [Docs](https://docs.flora.ai)
   - [Pricing](https://flora.ai/pricing)
 
-**Getting started:** no public CLI or SDK to install — start from the [docs](https://docs.flora.ai).
+**Getting started:** no public CLI or SDK to install, so start from the [docs](https://docs.flora.ai).
 
 ### 5. Figma Weave
 
-*· AI canvas now sold inside the Figma design suite*
+*AI canvas now sold inside the Figma design suite*
 
 ![Figma Weave screenshot](https://assets.wireflow.ai/linkedin/node-based-ai-image-generators/screenshot-figma-weave.png?v=r5)
 
@@ -157,13 +163,12 @@ comfy install
   - [Homepage](https://weave.figma.com)
   - [Docs](https://help.figma.com)
   - [Pricing](https://weave.figma.com/pricing)
-  - [Figma Weave API alternatives page](https://www.wireflow.ai/features/figma-weave-api)
 
-**Getting started:** no public CLI or SDK to install — start from the [docs](https://help.figma.com).
+**Getting started:** no public CLI or SDK to install, so start from the [docs](https://help.figma.com).
 
 ### 6. Freepik Spaces
 
-*· browser canvas layered on a large licensed stock library*
+*browser canvas layered on a large licensed stock library*
 
 ![Freepik Spaces screenshot](https://assets.wireflow.ai/linkedin/node-based-ai-image-generators/screenshot-freepik-spaces.png?v=r5)
 
@@ -174,13 +179,12 @@ comfy install
   - [Homepage](https://www.freepik.com/spaces)
   - [Docs](https://www.freepik.com/ai/docs)
   - [Pricing](https://www.freepik.com/pricing)
-  - [Freepik Spaces API status breakdown](https://www.wireflow.ai/freepik-spaces-api)
 
-**Getting started:** no public CLI or SDK to install — start from the [docs](https://www.freepik.com/ai/docs).
+**Getting started:** no public CLI or SDK to install, so start from the [docs](https://www.freepik.com/ai/docs).
 
 ### 7. InvokeAI
 
-*· open-source workflow editor with a strong inpainting canvas*
+*open-source workflow editor with a strong inpainting canvas*
 
 ![InvokeAI screenshot](https://assets.wireflow.ai/linkedin/node-based-ai-image-generators/screenshot-invokeai.png?v=r5)
 
@@ -192,7 +196,7 @@ comfy install
   - [Docs](https://invoke-ai.github.io/InvokeAI/)
   - [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI)
 
-**Getting started:** no public CLI or SDK to install — start from the [docs](https://invoke-ai.github.io/InvokeAI/).
+**Getting started:** no public CLI or SDK to install, so start from the [docs](https://invoke-ai.github.io/InvokeAI/).
 
 ## What node based actually means
 
@@ -272,7 +276,7 @@ Wireflow is the pick when you want a real node canvas, honest spend visibility, 
 
 ## How this list is maintained
 
-- [`data/tools.json`](data/tools.json) is the source of truth. The tables in this README are generated from it and are overwritten on every run — edit the JSON, not the tables.
+- [`data/tools.json`](data/tools.json) is the source of truth. The tables in this README are generated from it and are overwritten on every run, so edit the JSON, not the tables.
 - [`scripts/update.js`](scripts/update.js) fetches star counts and latest release tags from the GitHub API for the tools that publish an official repo, stamps the check date, and regenerates the tables. `--offline` regenerates without the network; `--check` exits non-zero if the README has drifted from the data.
 - [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml) runs it weekly and on manual dispatch, and commits only when the data actually changed.
 - Prices are deliberately not stored as numbers. A stale price in a comparison table is worse than no price, so the table links to each vendor's own pricing page.
@@ -283,7 +287,7 @@ Corrections and additions are welcome, including corrections to the entry for th
 
 ## License
 
-[CC0 1.0 Universal](LICENSE) — public domain. Take the data, fork the list, no attribution required.
+[CC0 1.0 Universal](LICENSE), public domain. Take the data, fork the list, no attribution required.
 
 ---
 

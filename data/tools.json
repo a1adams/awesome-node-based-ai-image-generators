@@ -1,7 +1,7 @@
 {
   "keyword": "node based ai image generator",
   "title": "Best Node Based AI Image Generators (2026)",
-  "lastChecked": "2026-10-05",
+  "lastChecked": "2026-10-11",
   "capabilityChecks": [
     {
       "key": "hosted",
@@ -29,7 +29,7 @@
       "n": 1,
       "name": "Wireflow",
       "tagline": "Best Overall",
-      "homepage": "https://www.wireflow.ai/node-based-image-generation",
+      "homepage": "https://www.wireflow.ai",
       "docs": "https://www.wireflow.ai/docs/mcp",
       "pricing": "https://www.wireflow.ai/pricing",
       "claudeConnection": "First-party hosted MCP (Streamable HTTP, OAuth)",
@@ -50,6 +50,8 @@
           "code": "https://www.wireflow.ai/api/mcp"
         }
       ],
+      "moneyPage": "https://www.wireflow.ai/node-based-image-generation",
+      "moneyPageLabel": "Wireflow node based image generation page",
       "capabilities": {
         "hosted": true,
         "nodeGraph": true,
@@ -68,11 +70,11 @@
     {
       "n": 2,
       "name": "ComfyUI",
-      "tagline": "· open-source node graph you run on your own GPU",
+      "tagline": "open-source node graph you run on your own GPU",
       "homepage": "https://www.comfy.org",
       "docs": "https://docs.comfy.org",
       "pricing": null,
-      "claudeConnection": "No first-party MCP server — community servers wrap a local instance",
+      "claudeConnection": "No first-party MCP server, community servers wrap a local instance",
       "restApi": true,
       "modelSupport": "Any checkpoint, LoRA or custom node you install locally",
       "freeTier": "yes",
@@ -93,17 +95,17 @@
         "batchSupport": false
       },
       "live": {
-        "stars": 136157,
-        "lastPush": "2026-10-05T13:14:25Z",
-        "latestRelease": "v0.38.0",
-        "latestReleaseDate": "2026-09-29",
-        "checkedAt": "2026-10-05"
+        "stars": 136818,
+        "lastPush": "2026-10-11T02:28:40Z",
+        "latestRelease": "v0.39.0",
+        "latestReleaseDate": "2026-10-05",
+        "checkedAt": "2026-10-11"
       }
     },
     {
       "n": 3,
       "name": "Krea",
-      "tagline": "· hosted generation platform with node apps and a documented REST API",
+      "tagline": "hosted generation platform with node apps and a documented REST API",
       "homepage": "https://www.krea.ai",
       "docs": "https://www.krea.ai/docs/",
       "pricing": "https://www.krea.ai/pricing",
@@ -132,7 +134,7 @@
     {
       "n": 4,
       "name": "Flora AI",
-      "tagline": "· design-oriented canvas with a public technique-execution API",
+      "tagline": "design-oriented canvas with a public technique-execution API",
       "homepage": "https://flora.ai",
       "docs": "https://docs.flora.ai",
       "pricing": "https://flora.ai/pricing",
@@ -161,7 +163,7 @@
     {
       "n": 5,
       "name": "Figma Weave",
-      "tagline": "· AI canvas now sold inside the Figma design suite",
+      "tagline": "AI canvas now sold inside the Figma design suite",
       "homepage": "https://weave.figma.com",
       "docs": "https://help.figma.com",
       "pricing": "https://weave.figma.com/pricing",
@@ -190,7 +192,7 @@
     {
       "n": 6,
       "name": "Freepik Spaces",
-      "tagline": "· browser canvas layered on a large licensed stock library",
+      "tagline": "browser canvas layered on a large licensed stock library",
       "homepage": "https://www.freepik.com/spaces",
       "docs": "https://www.freepik.com/ai/docs",
       "pricing": "https://www.freepik.com/pricing",
@@ -219,7 +221,7 @@
     {
       "n": 7,
       "name": "InvokeAI",
-      "tagline": "· open-source workflow editor with a strong inpainting canvas",
+      "tagline": "open-source workflow editor with a strong inpainting canvas",
       "homepage": "https://invoke.ai",
       "docs": "https://invoke-ai.github.io/InvokeAI/",
       "pricing": null,
@@ -238,11 +240,11 @@
         "batchSupport": false
       },
       "live": {
-        "stars": 28345,
-        "lastPush": "2026-10-05T12:10:12Z",
+        "stars": 28547,
+        "lastPush": "2026-10-11T04:05:20Z",
         "latestRelease": "v6.14.2",
         "latestReleaseDate": "2026-09-27",
-        "checkedAt": "2026-10-05"
+        "checkedAt": "2026-10-11"
       }
     }
   ]
