@@ -1,7 +1,7 @@
 {
   "keyword": "node based ai image generator",
   "title": "Best Node Based AI Image Generators (2026)",
-  "lastChecked": "2026-10-26",
+  "lastChecked": "2026-11-02",
   "capabilityChecks": [
     {
       "key": "hosted",
@@ -95,11 +95,11 @@
         "batchSupport": false
       },
       "live": {
-        "stars": 143132,
-        "lastPush": "2026-10-26T12:52:32Z",
-        "latestRelease": "v0.42.1",
-        "latestReleaseDate": "2026-10-19",
-        "checkedAt": "2026-10-26"
+        "stars": 144615,
+        "lastPush": "2026-11-02T14:02:09Z",
+        "latestRelease": "v0.43.0",
+        "latestReleaseDate": "2026-10-27",
+        "checkedAt": "2026-11-02"
       }
     },
     {
@@ -240,11 +240,11 @@
         "batchSupport": false
       },
       "live": {
-        "stars": 28868,
-        "lastPush": "2026-10-26T09:48:04Z",
-        "latestRelease": "v6.14.2",
-        "latestReleaseDate": "2026-09-27",
-        "checkedAt": "2026-10-26"
+        "stars": 28957,
+        "lastPush": "2026-11-02T11:51:53Z",
+        "latestRelease": "v6.14.3",
+        "latestReleaseDate": "2026-11-01",
+        "checkedAt": "2026-11-02"
       }
     }
   ]
